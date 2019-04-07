@@ -42,8 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Furnitures\Furniture.cs" />
+    <Compile Include="Furnitures\IMovable.cs" />
+    <Compile Include="Furnitures\Location.cs" />
+    <Compile Include="Furnitures\Power.cs" />
+    <Compile Include="Furnitures\Shelf.cs" />
+    <Compile Include="Furnitures\Table.cs" />
+    <Compile Include="Furnitures\Television.cs" />
+    <Compile Include="Output\ConsoleView.cs" />
+    <Compile Include="Output\IDisplayable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\MovingFurnitureService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
